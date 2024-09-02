@@ -1,0 +1,29 @@
+.navbar {
+    background-color: rgb(26, 26, 26);
+}
+
+#navLista {
+    color: #f8f9fa;
+}
+
+#navLista {
+    cursor: pointer;
+    margin: 0px 10px;
+    position: relative; /* Necesario para posicionar el pseudo-elemento relativo al a */
+    text-decoration: none; /* Para remover cualquier subrayado */
+  }
+  
+  #navLista::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0px; /* Ajusta esto según el espacio que desees entre el texto y la línea */
+    width: 0%;
+    height: 2px; /* Ajusta el grosor de la línea aquí */
+    background-color: rgb(255, 255, 255); /* Color de la línea */
+    transition: width 0.5s ease-in-out;
+  }
+  
+  #navLista:hover::after {
+    width: 100%;
+  }
