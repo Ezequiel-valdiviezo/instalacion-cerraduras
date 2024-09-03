@@ -1,5 +1,19 @@
 .navbar {
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(13, 13, 142);
+}
+
+header h1{
+    color: rgb(255, 255, 255);
+}
+
+.opcionesAbrir h2{
+    color: rgb(13, 13, 142);
+}
+.productos h2{
+    color: rgb(13, 13, 142);
+}
+.servicioTecnico h2{
+    color: rgb(13, 13, 142);
 }
 
 #navLista {
@@ -27,3 +41,23 @@
   #navLista:hover::after {
     width: 100%;
   }
+
+.fondo{
+    background: linear-gradient(rgba(0, 0, 0, 0.608), rgba(0, 0, 0, 0.608)), url(img/image.png);
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+}
+
+.productos{
+    background-color: rgb(245, 245, 245);
+}
+
+.servicioTecnico div div{
+    width: 200px;
+}
+
+footer{
+    height: 200px;
+    background-color: black;
+}
