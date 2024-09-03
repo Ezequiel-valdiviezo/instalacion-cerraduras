@@ -1,3 +1,13 @@
+.boddy{
+    background-color: rgb(13, 13, 142);
+}
+
+.contenido{
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+
 .navbar {
     background-color: rgb(13, 13, 142);
 }
@@ -43,10 +53,32 @@ header h1{
   }
 
 .fondo{
-    background: linear-gradient(rgba(0, 0, 0, 0.608), rgba(0, 0, 0, 0.608)), url(img/image.png);
-    height: 300px;
+    background: linear-gradient(rgba(8, 1, 32, 0.659), rgba(8, 1, 32, 0.659)), url(img/image22.png);
+    height: 400px;
     background-position: center;
     background-size: cover;
+}
+
+.botonContacto{
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: white;
+    border: solid 2px rgb(0, 0, 0);
+}
+.botonContacto:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 10px 1px white;
+}
+.botonContacto2{
+    padding: 5px 15px;
+    border-radius: 15px;
+    background-color: white;
+    color: rgb(13, 13, 142);
+    border: solid 2px rgb(13, 13, 142);
+}
+.botonContacto2:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 5px 1px rgb(14, 57, 175);
 }
 
 .productos{
@@ -56,8 +88,11 @@ header h1{
 .servicioTecnico div div{
     width: 200px;
 }
+.servicioTecnico h3{
+    color: rgb(13, 13, 142);
+}
 
 footer{
-    height: 200px;
+    /* height: 200px; */
     background-color: black;
 }
