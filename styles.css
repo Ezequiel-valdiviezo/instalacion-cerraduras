@@ -1,33 +1,40 @@
 .boddy{
-    background-color: rgb(13, 13, 142);
-}
-
-.contenido{
-    max-width: 1200px;
-    margin: auto;
     background-color: rgb(255, 255, 255);
 }
 
+/* .contenido{
+    max-width: 1200px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+} */
+
 .navbar {
-    background-color: rgb(13, 13, 142);
+    /* background-color: rgba(231, 231, 231, 0.837); */
+    background-color: rgba(54, 173, 247, 0.033);
+}
+.ancho{
+    max-width: 1200px;
+    margin: auto;
 }
 
 header h1{
-    color: rgb(255, 255, 255);
+    /* color: rgb(15, 154, 200); */
+    color: #069af5;
 }
 
 .opcionesAbrir h2{
-    color: rgb(13, 13, 142);
+    color: #069af5;;
 }
 .productos h2{
-    color: rgb(13, 13, 142);
+    color: #069af5;;
 }
 .servicioTecnico h2{
-    color: rgb(13, 13, 142);
+    color: #069af5;;
 }
 
 #navLista {
-    color: #f8f9fa;
+    /* color: #ffffff; */
+    color: #069af5;
 }
 
 #navLista {
@@ -44,7 +51,7 @@ header h1{
     bottom: 0px; /* Ajusta esto según el espacio que desees entre el texto y la línea */
     width: 0%;
     height: 2px; /* Ajusta el grosor de la línea aquí */
-    background-color: rgb(255, 255, 255); /* Color de la línea */
+    background-color: #069af5;; /* Color de la línea */
     transition: width 0.5s ease-in-out;
   }
   
@@ -53,7 +60,7 @@ header h1{
   }
 
 .fondo{
-    background: linear-gradient(rgba(8, 1, 32, 0.659), rgba(8, 1, 32, 0.659)), url(img/image22.png);
+    background: linear-gradient(rgba(4, 0, 16, 0.659), rgba(4, 0, 16, 0.659)), url(img/image22.png);
     height: 400px;
     background-position: center;
     background-size: cover;
@@ -63,7 +70,8 @@ header h1{
     padding: 5px 15px;
     border-radius: 15px;
     background-color: white;
-    border: solid 2px rgb(0, 0, 0);
+    border: solid 2px #069af5;;
+    color: #069af5;;
 }
 .botonContacto:hover{
     transform: scale(1.1);
@@ -73,12 +81,12 @@ header h1{
     padding: 5px 15px;
     border-radius: 15px;
     background-color: white;
-    color: rgb(13, 13, 142);
-    border: solid 2px rgb(13, 13, 142);
+    color: #069af5;;
+    border: solid 2px #069af5;;
 }
 .botonContacto2:hover{
     transform: scale(1.1);
-    box-shadow: 0 0 5px 1px rgb(14, 57, 175);
+    box-shadow: 0 0 5px 1px #069af5;;
 }
 
 .productos{
@@ -89,7 +97,7 @@ header h1{
     width: 200px;
 }
 .servicioTecnico h3{
-    color: rgb(13, 13, 142);
+    color: #069af5;;
 }
 
 footer{
