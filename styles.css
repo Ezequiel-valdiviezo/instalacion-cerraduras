@@ -23,13 +23,13 @@ header h1{
 }
 
 .opcionesAbrir h2{
-    color: #069af5;;
+    color: rgb(20, 20, 20);
 }
 .productos h2{
     color: #ffffff;;
 }
 .servicioTecnico h2{
-    color: #069af5;;
+    color: rgb(20, 20, 20);
 }
 
 #navLista {
@@ -60,7 +60,7 @@ header h1{
 
 .fondo{
     /* background: linear-gradient(rgba(4, 0, 16, 0.659), rgba(4, 0, 16, 0.659)), url(img/image22.png); */
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.776), rgba(4, 0, 16, 0.554)), url(img/image22.png);
+    background: linear-gradient(rgba(0, 0, 0, 0.775), rgba(0, 0, 0, 0.676)), url(img/image22.png);
 
     height: 400px;
     background-position: center;
@@ -71,8 +71,8 @@ header h1{
     padding: 5px 15px;
     border-radius: 15px;
     background-color: white;
-    border: solid 2px #069af5;;
-    color: #069af5;;
+    border: solid 2px #000000;;
+    box-shadow: 0 0 5px 1px rgb(179, 179, 179);
 }
 .botonContacto:hover{
     transform: scale(1.1);
@@ -82,12 +82,12 @@ header h1{
     padding: 5px 15px;
     border-radius: 15px;
     background-color: white;
-    color: #069af5;;
-    border: solid 2px #069af5;;
+    color: #000000;;
+    border: solid 2px #000000;;
 }
 .botonContacto2:hover{
     transform: scale(1.1);
-    box-shadow: 0 0 5px 1px #069af5;;
+    box-shadow: 0 0 5px 1px #000000;;
 }
 
 .productos{
