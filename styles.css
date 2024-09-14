@@ -9,8 +9,7 @@
 } */
 
 .navbar {
-    /* background-color: rgba(231, 231, 231, 0.837); */
-    background-color: rgba(54, 173, 247, 0.033);
+    background-color: rgb(20, 20, 20);
 }
 .ancho{
     max-width: 1200px;
@@ -19,7 +18,7 @@
 
 header h1{
     /* color: rgb(15, 154, 200); */
-    color: #069af5;
+    color: #ffffff;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
@@ -27,15 +26,14 @@ header h1{
     color: #069af5;;
 }
 .productos h2{
-    color: #069af5;;
+    color: #ffffff;;
 }
 .servicioTecnico h2{
     color: #069af5;;
 }
 
 #navLista {
-    /* color: #ffffff; */
-    color: #069af5;
+    color: #ffffff;
 }
 
 #navLista {
@@ -52,7 +50,7 @@ header h1{
     bottom: 0px; /* Ajusta esto según el espacio que desees entre el texto y la línea */
     width: 0%;
     height: 2px; /* Ajusta el grosor de la línea aquí */
-    background-color: #069af5;; /* Color de la línea */
+    background-color: #ffffff;; /* Color de la línea */
     transition: width 0.5s ease-in-out;
   }
   
@@ -61,7 +59,9 @@ header h1{
   }
 
 .fondo{
-    background: linear-gradient(rgba(4, 0, 16, 0.659), rgba(4, 0, 16, 0.659)), url(img/image22.png);
+    /* background: linear-gradient(rgba(4, 0, 16, 0.659), rgba(4, 0, 16, 0.659)), url(img/image22.png); */
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.776), rgba(4, 0, 16, 0.554)), url(img/image22.png);
+
     height: 400px;
     background-position: center;
     background-size: cover;
@@ -91,7 +91,8 @@ header h1{
 }
 
 .productos{
-    background-color: rgb(245, 245, 245);
+    background-color: rgb(20, 20, 20);
+    /* background-color: rgb(245, 245, 245); */
 }
 
 .servicioTecnico div div{
